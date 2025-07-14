@@ -10,3 +10,7 @@
 	path = Momentum-Batch
 	url = https://github.com/be15-fin-project/be15-fin-DAO-Momentum-Batch.git
 	branch = main
+[submodule "Momentum-ChatBot"]
+	path = Momentum-ChatBot
+	url = https://github.com/be15-fin-project/be15-fin-DAO-Momentum-ChatBot.git
+	branch = main
