@@ -1271,7 +1271,7 @@ Momentum는 현재의 인사 및 평가 체계에 안주하지 않고,
 <br>
 
 <details>
-<summary>인증</summary>
+<summary>🖥️ 인증</summary>
 
 - 로그인
   <img src="assets/testcases/common/1_로그인.gif" alt="로그인"/>
@@ -1286,7 +1286,7 @@ Momentum는 현재의 인사 및 평가 체계에 안주하지 않고,
 <br>
 
 <details>
-<summary>회사 정보</summary>
+<summary>🖥️ 회사 정보</summary>
 
 - 회사 정보 조회
   <img src="assets/testcases/company/4_회사 정보 조회.gif" alt="회사 정보 조회"/>
@@ -1364,7 +1364,7 @@ Momentum는 현재의 인사 및 평가 체계에 안주하지 않고,
 <br>
 
 <details>
-<summary>내정보</summary>
+<summary>🖥️ 내 정보</summary>
 
 - 내 정보 조회
 
@@ -1792,6 +1792,69 @@ Momentum는 현재의 인사 및 평가 체계에 안주하지 않고,
 <br>
 
 <details>
+<summary>🖥️ 공지사항</summary>
+
+<br>
+
+<details>
+<summary> 공지사항 목록 조회</summary>
+  <img src="assets/testcases/announcement/공지사항_목록조회.gif" alt="공지사항 목록 조회" />
+
+</details>
+
+<br>
+
+<details>
+<summary> 공지사항 상세 조회</summary>
+  <img src="assets/testcases/announcement/공지사항_상세조회.gif" alt="공지사항 상세 조회" />
+
+</details>
+
+<br>
+
+<details>
+<summary> 공지사항 작성</summary>
+  <img src="assets/testcases/announcement/공지사항_작성.gif" alt="공지사항 작성" />
+
+</details>
+
+<br>
+
+<details>
+<summary> 공지사항 수정 및 삭제</summary>
+  <img src="assets/testcases/announcement/공지사항_수정_및_삭제.gif" alt="공지사항 수정 및 삭제" />
+
+</details>
+
+<br>
+
+</details>
+
+<br>
+
+<details>
+<summary>🖥️ 챗봇</summary>
+
+<br>
+
+<details>
+<summary> 사내 데이터 기반 Q&A 챗봇</summary>
+  <img src="assets/testcases/chatbot/사내_데이터_기반_Q&A_챗봇.gif" alt="사내 데이터 기반 Q&A 챗봇" />
+</details>
+
+<br>
+
+<details>
+<summary> 사내 시스템 이용 Q&A 챗봇</summary>
+  <img src="assets/testcases/chatbot/사내_시스템_이용_Q&A_챗봇.gif" alt="사내 시스템 이용 Q&A 챗봇" />
+</details>
+
+</details>
+
+</details>
+<br>
+
+<details>
 <summary>🖥️ 설정</summary>
 
 <br>
@@ -1813,7 +1876,7 @@ Momentum는 현재의 인사 및 평가 체계에 안주하지 않고,
 <summary> &emsp;부서 관리</summary>
 
 - 부서 생성
-  <img src="assets/testcases/setting/8_부서관리-부서생성.gif" alt="부서 생성" />
+  <img src="assets/testcases/setting/8_부서관리-부서_생성.gif" alt="부서 생성" />
 
 <br>
 
