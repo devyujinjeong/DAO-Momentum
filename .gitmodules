@@ -14,3 +14,7 @@
 	path = Momentum-ChatBot
 	url = https://github.com/be15-fin-project/be15-fin-DAO-Momentum-ChatBot.git
 	branch = main
+[submodule "Momentum-Notification"]
+	path = Momentum-Notification
+	url = https://github.com/be15-fin-project/be15-fin-DAO-Momentum-Notification.git
+	branch = main
