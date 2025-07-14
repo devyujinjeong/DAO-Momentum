@@ -1,0 +1,4 @@
+[submodule "Momentum-BE"]
+	path = Momentum-BE
+	url = https://github.com/be15-fin-project/be15-fin-DAO-Momentum-BE.git
+	branch = main
