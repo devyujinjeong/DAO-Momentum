@@ -5,8 +5,8 @@
 2. [📘 프로젝트 기획서](#2--프로젝트-기획서)
 3. [🛠️ 기술 스택](#3-%EF%B8%8F-기술-스택)
 4. [📁 프로젝트 구조](#4--프로젝트-구조)
-5. [📊 산출물](#5--산출물)
-    - 
+5. [🛠 형상 관리](#5--형상-관리)
+6. [📊 산출물](#6--산출물)
     - [📊 WBS](#1--wbs-작업-분배-및-일정)
     - [📄 요구사항 정의](#2--요구사항-정의서)
     - [🔄 플로우 차트 & UML](#3--플로우-차트--uml)
@@ -20,7 +20,7 @@
     - [📚 SWAGGER 문서](#11--swagger-문서)
     - [🧪 테스트 케이스 상세](#12--테스트-케이스-상세)
     - [🗄️ 빌드 및 배포](#13--빌드-및-배포)
-6. [🫂 팀원 회고](#6--팀원-회고)
+7. [🫂 팀원 회고](#6--팀원-회고)
 
 <br>
 
@@ -351,7 +351,7 @@ Momentum의 주요 기능은 다음과 같이 6개 카테고리로 구성됩니�
 
 ---
 
-각 기능은 아래 개별 상세 섹션에서 기술됩니다. 
+각 기능은 아래 개별 상세 섹션에서 기술됩니다.
 
 <details>
 <summary> &emsp;1. 인사 관리 기능 (HR Management)</summary>
@@ -932,7 +932,7 @@ Momentum는 현재의 인사 및 평가 체계에 안주하지 않고,
 
 ## 3. 🛠️ 기술 스택
 
-### 💻 Backend  
+### 💻 Backend
 <div>
   <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white" />
   <img src="https://img.shields.io/badge/Gradle-02303A?style=flat&logo=Gradle&logoColor=white" />
@@ -1124,7 +1124,73 @@ Momentum는 현재의 인사 및 평가 체계에 안주하지 않고,
 
 ---
 
-## 5. 📊 산출물
+## 5. 🛠 형상 관리
+
+### 1. 🔧 깃 브랜치 전략
+
+- **feature/**: 새로운 기능 개발
+  \- 예: `feature/user/login`, `feature/community/post`
+    - **`feature/(대분류 기능명)/(중분류 기능명)` (요구사항 명세서 기준으로 대분류, 중분류로 구분)**
+- **docs/**: 문서 작성 또는 수정
+  \- 예: `docs/update-readme`
+- **entity/**: 엔티티 만들기
+  \-예 : `entity/work`
+- **init** : 프로젝트 초기 셋팅 (config, 기본 구조 등)
+
+<img src="assets/images/git_branch.png" alt="requirements" width="550"/>
+
+<br> 
+
+---
+
+### 2. 🔀 커밋 컨벤션
+
+| **키워드** | **내용** |
+| --- | --- |
+| init | 기초 작업 |
+| feat | 기능 구현 완료 |
+| fix | 코드의 버그, 로직 오류 수정 |
+| docs | README 파일 수정 |
+| style | 코드 작성 스타일, 문법 오류 수정 (누락된 세미콜론 등) |
+| refactor | 코드 로직 개선 |
+| test | 테스트 케이스 추가, 수정 |
+| chore | 설정/빌드작업, 패키지 업데이트 등  |
+
+<br> 
+
+---
+
+### 3. 📌 이슈 관리
+
+- 🧾 이슈 템플릿 구성
+
+  <img src="assets/images/git_issue_template.png" alt="wbs" width="550"/>
+
+  <details> 
+  <summary>⭐ 기능 템플릿 (Feature)</summary> 
+    <img src="assets/images/feature_template.png" alt="wbs" width="550"/>
+  </details>
+
+  <details> 
+  <summary>♻️ 리팩토링 템플릿 (Refactor)</summary>
+    <img src="assets/images/refactor_template.png" alt="wbs" width="550"/>
+  </details>
+
+  <details> 
+  <summary>🐛 버그 템플릿 (Feature)</summary>
+    <img src="assets/images/bug_template.png" alt="wbs" width="550"/>
+  </details>
+<br>
+
+- 🖥️ 이슈 예시 화면
+  <img src="assets/images/git_issues.png" alt="wbs" width="550"/>
+
+<br>
+
+
+---
+
+## 6. 📊 산출물
 
 ### 1. 📊 WBS (작업 분배 및 일정)
 
@@ -1357,7 +1423,7 @@ Momentum는 현재의 인사 및 평가 체계에 안주하지 않고,
 <summary>🖥️ 근태 관리</summary>
 
 - 근태 내역 조회
- <img src="assets/testcases/work/work-list.gif" alt="근태 내역 조회"/>
+  <img src="assets/testcases/work/work-list.gif" alt="근태 내역 조회"/>
 
 </details>
 
@@ -1409,7 +1475,7 @@ Momentum는 현재의 인사 및 평가 체계에 안주하지 않고,
 
 <details>
 <summary> &emsp;결재 문서 작성</summary>
-    
+
 - 출퇴근 정정  
   <img src="assets/testcases/approve/결재_결재 작성_출퇴근 정정.gif" alt="출퇴근 정정" />
 
@@ -1961,7 +2027,7 @@ Momentum는 현재의 인사 및 평가 체계에 안주하지 않고,
 
 ---
 
-## 6. 🫂 팀원 회고
+## 7. 🫂 팀원 회고
 
 
 
