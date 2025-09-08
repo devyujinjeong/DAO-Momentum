@@ -1672,7 +1672,7 @@ Momentum은 단순 예측 기능을 넘어
 
 ### 7. 📐 시스템 아키텍처 구조도
 
-<img src="assets/images/architecture.png" alt="architecture"/>
+<img src="assets/images/BE15-fin-시스템 아키텍쳐.drawio.png" alt="architecture"/>
 
 <br>
 
